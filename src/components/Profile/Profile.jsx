@@ -35,7 +35,7 @@ const Profile = ({
   );
 };
 
-Profile.ropTypes = {
+Profile.propTypes = {
   user: PropTypes.exact({
     username: PropTypes.string.isRequired,
     tag: PropTypes.string.isRequired,
