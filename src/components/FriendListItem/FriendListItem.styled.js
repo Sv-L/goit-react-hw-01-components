@@ -18,11 +18,7 @@ export const StatusOnline = styled.span`
   background-color: green;
 `;
 
-export const StatusOffline = styled.span`
-  display: block;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
+export const StatusOffline = styled(StatusOnline)`
   background-color: red;
 `;
 export const Avatar = styled.img`
